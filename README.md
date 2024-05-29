@@ -1,6 +1,7 @@
 # Data Structures and Algorithms (DSA)
 
-This repository contains implementations of various data structures and algorithms in both JavaScript and Python. The goal is to provide a resource for learning and understanding the fundamentals of data structures and algorithms, with examples in two popular programming languages.
+This repository contains implementations of various data structures and algorithms in JavaScript, Python, and Java. The goal is to provide a resource for learning and understanding the fundamentals of data structures and algorithms, with examples in three popular programming languages.
+
 
 ## Project Structure
 
@@ -8,6 +9,7 @@ The project is organized into the following main directories:
 
 - `JavaScript/`
 - `Python/`
+- `Java/`
 
 Each language directory contains two subdirectories:
 
@@ -27,21 +29,31 @@ DSA/
 │   ├── BinarySearch.js
 │   ├── BubbleSort.js
 │   └── LinearSearch.js
-└── Python/
+├── Python/
+│ ├── DataStructures/
+│ │ ├── array.py
+│ │ ├── linked_list.py
+│ │ ├── queue.py
+│ │ └── stack.py
+│ └── Algorithms/
+│   ├── binary_search.py
+│   ├── bubble_sort.py
+│   └── linear_search.py
+└── Java/
   ├── DataStructures/
-  │ ├── array.py
-  │ ├── linked_list.py
-  │ ├── queue.py
-  │ └── stack.py
+  │ ├── Array.java
+  │ ├── LinkedList.java
+  │ ├── Queue.java
+  │ └── Stack.java
   └── Algorithms/
-    ├── binary_search.py
-    ├── bubble_sort.py
-    └── linear_search.py
+    ├── BinarySearch.java
+    ├── BubbleSort.java
+    └── LinearSearch.java
 ```
 
 ## Data Structures
 
-The following data structures are implemented in both JavaScript and Python:
+The following data structures are implemented in JavaScript, Python, and Java:
 
 - **Array**: A collection of elements identified by index.
 - **LinkedList**: A linear collection of nodes where each node points to the next node.
@@ -53,18 +65,25 @@ The following data structures are implemented in both JavaScript and Python:
 - `Array.js`: Implementation of array operations.
 - `LinkedList.js`: Implementation of a singly linked list.
 - `Queue.js`: Implementation of a queue.
-- `Stacks.js`: Implementation of a stack.
+- `Stack.js`: Implementation of a stack.
 
 ### DataStructures in Python
 
 - `array.py`: Implementation of array operations.
 - `linked_list.py`: Implementation of a singly linked list.
 - `queue.py`: Implementation of a queue.
-- `stacks.py`: Implementation of a stack.
+- `stack.py`: Implementation of a stack.
+
+### DataStructures in Java
+
+- `Array.java`: Implementation of array operations.
+- `LinkedList.java`: Implementation of a singly linked list.
+- `Queue.java`: Implementation of a queue.
+- `Stack.java`: Implementation of a stack.
 
 ## Algorithms
 
-The following algorithms are implemented in both JavaScript and Python:
+The following algorithms are implemented in JavaScript, Python, and Java:
 
 - **Binary Search**: An efficient algorithm for finding an item from a sorted list of items.
 - **Bubble Sort**: A simple sorting algorithm that repeatedly steps through the list to be sorted.
@@ -82,9 +101,16 @@ The following algorithms are implemented in both JavaScript and Python:
 - `bubble_sort.py`: Implementation of bubble sort algorithm.
 - `linear_search.py`: Implementation of linear search algorithm.
 
+### Algorithms in Java
+
+- `BinarySearch.java`: Implementation of binary search algorithm.
+- `BubbleSort.java`: Implementation of bubble sort algorithm.
+- `LinearSearch.java`: Implementation of linear search algorithm.
+
 ## Getting Started
 
-To get started with the project, clone the repository and navigate to the respective directory (JavaScript or Python) to explore the implementations.
+To get started with the project, clone the repository and navigate to the respective directory (JavaScript, Python, or Java) to explore the implementations.
+
 
 ```bash
 git clone https://github.com/maydaythecoder/DSA
@@ -113,6 +139,19 @@ python array.py
 cd Python/Algorithms
 python linear_search.py
 ```
+# Java
+To run the Java code, ensure you have Java Development Kit (JDK) installed. Navigate to the respective file, compile, and run it using javac and java.
+```bash
+cd Java/DataStructures
+javac Array.java
+java Array
+```
+```bash
+cd Java/Algorithms
+javac LinearSearch.java
+java LinearSearch
+```
+
 # Contributing
 Contributions are welcome! If you have any improvements 
 or additional data structures/algorithms to add,  
