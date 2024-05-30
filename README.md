@@ -22,6 +22,7 @@ DSA/
 ├── JavaScript/
 │ ├── DataStructures/
 │ │ ├── Array.js
+│ │ ├── Hashmaps.js
 │ │ ├── LinkedList.js
 │ │ ├── Queue.js
 │ │ └── Stack.js
@@ -32,6 +33,7 @@ DSA/
 ├── Python/
 │ ├── DataStructures/
 │ │ ├── array.py
+│ │ ├── Hash_maps.py
 │ │ ├── linked_list.py
 │ │ ├── queue.py
 │ │ └── stack.py
@@ -42,6 +44,7 @@ DSA/
 └── Java/
   ├── DataStructures/
   │ ├── Array.java
+  │ ├── Hashmaps.java
   │ ├── LinkedList.java
   │ ├── Queue.java
   │ └── Stack.java
